@@ -1,0 +1,188 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #fff;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        color: #333;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    h1,
+    h2 {
+        font-weight: 700;
+        line-height: 1.2;
+    }
+    
+    p {
+        margin: 10px 0;
+    }
+    
+    img {
+        width: 100%;
+    }
+    /* Navbar */
+    
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        color: rgb(32, 74, 211);
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        top: 0px;
+        padding: 0 30px;
+    }
+    
+    .navbar__list {
+        display: flex;
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    .navbar__items {
+        list-style: none;
+    }
+    
+    .navbar__items a {
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+        margin: 0 5px;
+        font-weight: 400;
+    }
+    /* Icons*/
+    
+    .fas {
+        padding: 20px 0px 5px 20px;
+    }
+    
+    .flex-columns p {
+        margin: 20px 0;
+        color: #333;
+    }
+    
+    .section-header__title {
+        font-size: 36px;
+    }
+    
+    .main__title {
+        font-size: 44px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    #about__pragraph {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .card {
+        padding: 30px;
+    }
+    
+    .card h3 {
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .card-1 i {
+        background-color: #7752BE;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .card-2 i {
+        background-color: #FAB005;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .card-3 i {
+        background-color: #F03E3D;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .card-4 i {
+        background-color: #4DADF7;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+    
+    .card__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .flex-grid .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0px;
+        width: 90%;
+        margin: 20px;
+    }
+    
+    .main-content {
+        display: flex;
+        margin-bottom: 80px;
+    }
+    
+    .main-content .box {
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
+    
+    .left img {
+        max-width: 187px;
+        height: 32px;
+    }
+    
+    #email-input {
+        width: 250px;
+        height: 40px;
+        border-radius: 4px;
+        outline: none;
+        margin: 10px;
+    }
+    
+    .email-btn {
+        width: 150px;
+        height: 55px;
+        text-align: center;
+        font-size: 14px;
+        padding: 20px;
+        margin-left: 10px;
+    }
